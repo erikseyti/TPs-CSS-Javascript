@@ -1,0 +1,19 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Documento sem título</title>
+</head>
+
+<body>
+<ol>
+  <li>
+    <div>User-agent: *</div>
+  </li>
+  <li>
+    <div>Disallow:professor.html</div>
+  </li>
+</ol> 
+PK(Codigo Inserido Apos Abertura No DreamWeaver)
+</body>
+</html>

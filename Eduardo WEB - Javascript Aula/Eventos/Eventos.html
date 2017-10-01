@@ -1,0 +1,80 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sem título</title>
+<script type="application/javascript" src="Javascript.js">
+</script>
+<style>
+body{ background-color: hsla(0,0%,100%,1.00);}
+h2 { color:#999; font-family:Georgia, "Times New Roman", Times, serif;;}
+button{ height:35px; width:120px;}
+a{ color:#03F;}
+div{ border:thin solid   hsla(0,0%,0%,1.00); margin:5px; padding:10px; background-color:hsla(0,0%,99%,1.00);}
+inv{ border:hidden; visibility:hidden;}
+</style>
+</head>
+
+<body>
+<h1>Eventos</h1>
+<div>
+<h2>onClick</h2>
+Evento Disparado pleo OnClick do botão esquerdo do mouse.<br>
+
+Exemplos:<br>
+<button value="OnClickNoBotão" onClick='botao()' >
+OnClickNoBotão
+</button><br>
+<a href=""  onClick='link()'>OnclickNoLink</a>
+<p OnClick='paragrafo()'>onclickNoParagrafo</p>
+</div>
+<div>
+<h2>onSubmit</h2>
+Evento Disparado Quando O Usuario Clica No Botao de Enviar Um Formulario.<br>
+Exemplos:<br>
+<form name="teste" onSubmit='formsub()'>
+Nome:<input type="text" name="nome"><br>
+<br> <input type="submit" value="enviar">
+</form>
+</div><div>
+<h2>onMouseOver</h2>
+Evento Disparado Pelo Quando o Ponteiro do Mouse Estiver Sobre O HTML.
+
+<h2>onMouseOut</h2>
+Evento Disparado Pelo Quando o Usuario Retira o Ponteiro do Mouse De Cima Do Elemento HTML.<br>
+
+<br>
+Exemplos:<br><a>onMouseOver onMouseOut</a>
+
+<button onMouseOver='mouseover()'onMouseOut='mouseout()' value="btn">button</button>
+</div><div>
+<h2>onFocus</h2>
+Evento Disparado Quando o Foco Mudar De Um Controle Para O Outro.
+
+<h2>onBlur</h2>
+Evento Disparado Quyando O Elemento Perde O Foco.
+Exemplos:
+<form> Matricula: <input type="text" name="Matricula>" onFocus="focomatri"><br>
+Nome: <input type="text" name="nome"> 
+
+<input type="text" name="inv" id="inv">
+
+</form>
+
+</div>
+<div>
+<h2>onChange</h2>
+Evento Disparado Quando o Conteudo De Um Elemento é Alterado.
+Exemplos:</div>
+<div>
+<h2>onLoad</h2>
+Evento Disparado Assim Que A Pagina é Carregada.</div>
+
+<div>
+<h2>onUnload</h2>
+Evento Disparado Quando O Usuario  Encerra A Execução Da Pagina Atual Para Exibir Uma Nova Pagina,Se Fechar O Browser Ou Clicar No Boltão Voltar.
+</div>
+<body onLoad='bemvindo()'>
+
+</body>
+</html>

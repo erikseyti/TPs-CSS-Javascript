@@ -1,0 +1,30 @@
+﻿<HTML>
+<HEAD><TITLE>Funções em JavaScript</TITLE>
+</HEAD>
+<BODY bgColor=#fafafa>
+<script type="application/javascript">
+function soma(jaca,morango)
+{
+	s = eval(jaca)+ eval(morango);
+	alert(s);
+	
+	}
+</script>
+<FORM method="post" name="dados">
+  <p>1º valor <INPUT name="pv" id="pv"><BR>
+    2º valor <INPUT name="sv" id="sv">
+  </p>
+  <p>Operação<BR>
+  <INPUT CHECKED name="operacao" type="radio" value=m>Multiplicação<BR>
+  <INPUT name="operacao" type="radio" value="d">Divisão<BR>
+  <INPUT name="operacao" type="radio" value="a">Adição<BR>
+  <INPUT name="operacao" type="radio" value="s">Subtração<BR>
+    
+    <input type="button" name="button" id="button" value="Calcular"  onclick="soma(document.getElementById('pv').value,document.getElementById('sv').value)"/>
+    <INPUT type="reset" value="Limpar">
+  </p>
+</FORM>
+
+
+
+</BODY></HTML>

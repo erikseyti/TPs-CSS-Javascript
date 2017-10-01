@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+body{ background-color:#002713;
+color:#F6F8D3;
+font-family:Georgia, "Times New Roman", Times, serif;}
+
+p { color:#F6F8D3;
+font-family:Georgia, "Times New Roman", Times, serif;}
+
+h1{ text-align:center;
+	 color:#B8C6A5; font-family:Verdana, Geneva, sans-serif;}
+
+h2{ color:#6ABEB1; font-family:"Times New Roman", Times, serif;}
+
+h3{ color:#0CC; font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;}
+
+h4{ color:#600;}
+
+del{ visibility:hidden;}
+
+mark{ color:#0C0;}
+
+strong{ opacity:0.75;}
+#ex{ color:#900;}
+li{ display:inline;}
+#barra { background-color:#030; border:solid thin #333; padding-top:3px;; padding-bottom:7px;; padding-left:10px;; padding-right:10px;}
+a:link{ color:#FFF;}
+a:visited{ color:#900;}
+#cont{ text-align:center; width:1000px;    background-color:#030;
+margin-left:110px;}
+#gentoo{ text-align:center; width:1000px;    background-color:#030;
+margin-left:110px;}
+#fotosemconjunto li{ margin-left:5px; margin-right:5px; }
+#imp{ text-align:center; width:1000px;    background-color:#030;
+margin-left:110px; margin-bottom:10px; margin-top:10px; }
+#fotter{ text-align:center end; font-size:9px; margin-left:330px;}
+#mac{ text-align:center; width:1000px;    background-color:#030;
+margin-left:110px; margin-bottom:10px; margin-top:10px;}
+#prof{ background-color:#000; border:thin solid #999;}
